@@ -1,0 +1,134 @@
+
+
+
+ /*
+  ========================================
+  Box-sizing
+  ========================================
+*/
+*{
+    box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: serif;
+}
+
+
+.myDiv {
+  border: 5px solid red;
+  margin: 10px;
+  padding: 40px;
+
+}
+h1{border: solid green; 2px:
+
+}
+.blar {
+border: dashed blue 4px;
+padding: 20px;
+color:blue;
+
+}
+
+.blar-2{
+display:inline;
+border: dashed blue 3px;
+color:red;
+padding: 15px;
+margin: 15px;
+}
+.bigL{
+  padding-bottom: 10px;
+    padding-right: 10px;
+font-size: 4em;
+float: left;}
+.green {
+display:block;
+border: dashed green 3px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding: 15px;
+margin: 15px;
+}
+.raudur{
+display:inline-block;
+border: dashed red 3px;
+padding: 15px;
+margin: 15px;
+
+}
+.ptext{
+color: blue;
+padding: 15px;
+margin: 15px;
+
+}
+.box {
+padding:10px;
+border: solid black 1px;
+float:left;
+font-size: 1.2em;
+width: 50%;
+}
+.imgR{
+
+float:right;}
+
+.athugid
+{
+	background-color: yellow;
+text-align: center;
+padding:10;
+}
+.boxes {
+padding:10px;
+border: solid black 1px;
+
+font-size: 1.2em;
+width: 100%;
+margin-bottom:20px;
+}
+.rightverk
+{
+text-align:right;
+background:rgba(0,0,0,0.5);}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+footer p {
+  text-align: center;
+}
+
+
